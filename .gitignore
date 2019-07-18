@@ -19,6 +19,7 @@ var/
 # Serverless directories
 .serverless
 
+work/
 .envrc
 .history
 .python-version
