@@ -30,3 +30,7 @@ Cloudwatch Eventsで日時で0:00に実行するように設定しているが�
 ```
 sls invoke -f change_retention -l
 ```
+実行時間を変更する場合には、serverless.ymlのeventsの設定を変更
+
+## その他
+保存期間はLambdaの環境変数(RETENTION)で変更可能
